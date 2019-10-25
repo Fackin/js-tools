@@ -1,3 +1,6 @@
+/**
+ * @namespace example
+ */
 function helloWorld() {
   console.log('hello World!');
 }

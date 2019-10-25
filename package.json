@@ -11,7 +11,8 @@
     "babel:lib": "./node_modules/.bin/babel src --out-dir lib",
     "babel:dist": "./node_modules/.bin/babel src --out-dir dist",
     "rollup": "npm-run-all --parallel rollup-cjs rollup-es rollup-umd",
-    "build": "npm-run-all babel:dist rollup"
+    "build": "npm-run-all babel:dist rollup",
+    "build:doc": "jsdoc -r --readme README.md -c jsDoc.json"
   },
   "author": "",
   "license": "ISC",
