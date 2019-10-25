@@ -1,5 +1,5 @@
 # dependencies
-/node_modules
+# /node_modules
 
 # testing
 # /coverage
@@ -20,6 +20,6 @@ coverage
 .vscode
 .idea
 
-docs
+# dist
 test.html
 api-docs
